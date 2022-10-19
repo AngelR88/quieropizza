@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace quieropizzaBL
+{
+    public class producto
+    {
+        public int id { get; set; }
+        public int Id { get; internal set; }
+        public string  Descripcion { get; set; }
+        public string Descripcion { get; internal set; }
+        public double precio { get; set; }
+       
+    }
+}
